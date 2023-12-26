@@ -1,0 +1,197 @@
+<<<<<<< HEAD
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url('https://www.musketeerstech.com/_next/image?url=%2Fassets%2Fimg%2Fhome%2Fh_banner.webp&w=1920&q=75');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #786c6c;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-content div {
+    flex: 1 0 calc(50% - 1rem);
+    margin-bottom: 1rem;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #efe6e6;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgb(176, 170, 170);
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #545050;
+}
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-card {
+    text-align: center;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.client-card {
+    text-align: center;
+    flex: 1 0 calc(25% - 1rem);
+    background-color: #eee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.client-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-card {
+    flex: 1 0 calc(33.33% - 1rem);
+    background-color: #eee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.success-stories-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+.success-story {
+    text-align: center;
+    max-width: 300px;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.success-story img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        flex: 1 0 calc(100% - 1rem);
+    }
+}
+@media (max-width: 768px) {
+    .client-card {
+        flex: 1 0 calc(50% - 1rem);
+    }
+}
+@media (max-width: 768px) {
+    .about-content div {
+        flex: 1 0 calc(100% - 1rem);
+    }
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+=======
+>>>>>>> a8fb46b1517224408db5cbb8934f03872d7315ff
